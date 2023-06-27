@@ -1,0 +1,30 @@
+{
+  "name": "supabase-roles",
+  "version": "1.0.1",
+  "description": "Supabase roles (claims) manipulation in the backend.",
+  "author": "Will Tesler",
+  "main": "src/index.js",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wtesler/supabase-roles.git"
+  },
+  "homepage": "https://github.com/wtesler/supabase-roles",
+  "keywords": [
+    "supabase",
+    "roles",
+    "claims",
+    "server"
+  ],
+  "dependencies": {
+  },
+  "peerDependencies": {
+    "@supabase/supabase-js": "^2"
+  },
+  "devDependencies": {
+    "cross-env": "7.0.3",
+    "eslint": "8.22.0",
+    "eslint-plugin-promise": "6.1.1",
+    "prettier": "2.8.8"
+  }
+}
